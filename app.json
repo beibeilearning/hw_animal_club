@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/Home/home",
+    "pages/Contact/contact",
+    "pages/Member/member",
+    "pages/Animal/animal",
+    "pages/Travelogue/travelogue"
+
+  ],
+  "lazyCodeLoading": "requiredComponents",
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "海外动物社",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

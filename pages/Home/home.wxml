@@ -1,0 +1,29 @@
+<!--pages/Home/home.wxml-->
+<swiper class="swiper-container" indicator-dots="true">
+  <!--第一个轮播图-->
+  <swiper-item>
+    <image class="item-image" src="https://uploadfile.bizhizu.cn/up/9f/2d/75/9f2d757c9ab710718217134d58c0de4f.jpg.source.jpg" />
+  </swiper-item>
+  <!--第二个轮播图-->
+  <swiper-item>
+    <image class="item-image" src="https://p1.ssl.qhimg.com/t01b9d8d5433933a506.jpg" />   
+  </swiper-item>
+    <!--第三个轮播图-->
+  <swiper-item>
+    <image class="item-image" src="https://www.2008php.com/2014_Website_appreciate/2015-12-14/201512142332452H1ht2H1ht.jpg" /> 
+  </swiper-item>
+</swiper>
+
+<!-- 添加按钮 -->
+<view class="button-container">
+  <button class="button" bindtap="navigateToAnimal">小动物信息</button>
+  <button class="button" bindtap="navigateToMember">成员信息</button>
+  <button class="button" bindtap="navigateToContact">联系我们</button>
+</view>
+
+ <!-- 动物舍游记内容 -->
+ <view class="travelogue-container" bindtap="navigateToTravelogue">
+    <text class="travelogue-title">动物舍游记</text>
+    <text class="travelogue-content">这里是动物舍游记的相关内容...</text>
+    <image class="travelogue-image" src="https://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/242dd42a2834349b64b0bea1c1ea15ce36d3be64.jpg" />
+</view>

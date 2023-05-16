@@ -1,0 +1,58 @@
+/* pages/Home/home.wxss */
+.swiper-container {
+  height: 40vh;
+  width: 100%;
+  display: block;
+
+}
+.item {
+  height: 100%;
+  line-height: 40vh;
+  text-align: center;
+}
+
+.item:nth-child(1) {
+  background-color: lightblue;
+}
+.item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* pages/Home/home.wxss */
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.button {
+  padding: 12px 24px;
+  background-color: lightblue;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+}
+/*小动物舍游记的样式*/
+.travelogue-container {
+  margin-top: 20px;
+}
+
+.travelogue-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.travelogue-content {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.travelogue-image {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}

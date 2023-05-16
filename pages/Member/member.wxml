@@ -1,0 +1,6 @@
+<!--pages/Member/member.wxml-->
+<!--一个免费上传图片并获取链接的地址： https://postimages.org/-->
+<text>这里会展示小动物舍成员的名字啊之类的</text>
+<text> 这个图片测试用，很成功！</text>
+<image src="https://i.postimg.cc/XvwkvK1W/test1.jpg"></image>
+<image src="https://pan.baidu.com/s/1_E9kN53vPDgnZdBPCweQ4A?pwd=94aa"></image>
